@@ -1,0 +1,527 @@
+{
+  "generatedAt": "2026-11-20T19:52:45.822Z",
+  "settings": {
+    "about": {
+      "intro": "Arabian, Korean and Turkish fried chicken out of Miraroad — fried to order and delivered till midnight.",
+      "story": "",
+      "founderImageUrl": "/images/kitchen.jpg"
+    },
+    "announcements": {
+      "enabled": true,
+      "text": "Open 4 PM – 12 AM · Delivery in Miraroad, Thane · 83569 15574"
+    },
+    "policies": {
+      "shipping": "Delivery across Miraroad, Thane and nearby. Orders are confirmed on WhatsApp with a delivery window before they are fried.",
+      "returns": "Food is made to order, so we cannot take returns. If something arrives wrong or cold, message us on the same number and we will fix it."
+    },
+    "_id": "6b00a4c0503f15d4c5f37566",
+    "businessName": "DUDU BUBU",
+    "tagline": "Fried Chicken · Arabian · Korean · Turkish",
+    "whatsappNumber": "+91 83569 15574",
+    "instagramUrl": "https://www.instagram.com/dudu_bubufried/",
+    "instagramHandle": "dudu_bubufried",
+    "email": "",
+    "city": "Thane",
+    "mapsUrl": "",
+    "whatsappTemplate": "Hi DUDU BUBU! 🍗\nI would like to order:\n{{ITEMS}}\nEstimated total: {{TOTAL}}\n\nPlease confirm availability, price and delivery time.",
+    "whatsappSingleProductTemplate": "Hi DUDU BUBU! 🍗\nI would like to ask about:\n• {{PRODUCT}}\n{{VARIANT_LINE}}{{QTY_LINE}}Price: {{PRICE}}\n\nPlease confirm availability and delivery time.",
+    "heroSlides": [
+      {
+        "imageUrl": "/images/hero-fryer.jpg",
+        "eyebrow": "Miraroad, Thane · 4 PM – 12 AM",
+        "headline": "Fried. Glazed. Devoured.",
+        "subheadline": "Arabian, Korean and Turkish fried chicken, out of the fryer to your door — plus boba and shakes to put the fire out.",
+        "ctaLabel": "See the menu",
+        "ctaHref": "/shop",
+        "active": true
+      },
+      {
+        "imageUrl": "/images/hero-wings.jpg",
+        "eyebrow": "Korean glaze · 12 pieces",
+        "headline": "Sticky, sweet, then hot.",
+        "subheadline": "Gochujang-tossed wings finished with sesame and spring onion. Sweet on the first bite, warm on the third.",
+        "ctaLabel": "Order the wings",
+        "ctaHref": "/category/fried-chicken",
+        "active": true
+      },
+      {
+        "imageUrl": "/images/hero-shakes.jpg",
+        "eyebrow": "Boba · Mojito · Shakes",
+        "headline": "Something cold to put it out.",
+        "subheadline": "Thick shakes, brown-sugar boba and crushed-ice mojitos — the other half of a midnight order.",
+        "ctaLabel": "Drinks menu",
+        "ctaHref": "/category/shakes-boba",
+        "active": true
+      }
+    ],
+    "createdAt": "2026-11-20T19:51:28.119Z",
+    "updatedAt": "2026-11-20T19:51:28.119Z",
+    "__v": 0
+  },
+  "products": [
+    {
+      "_id": "6b00a4c0503f15d4c5f37571",
+      "name": "Arabian Crispy Chicken",
+      "slug": "arabian-crispy-chicken",
+      "description": "The house bucket. Chicken brined overnight in buttermilk, dredged twice and fried hard, then dusted with a warm Arabian spice blend — cumin, coriander, sumac and a little dried lime. Order it quarter, half or full.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "Chicken, buttermilk brine, seasoned flour, cumin, coriander, sumac, dried lime, garlic",
+      "care": "Contains gluten and dairy. Fried in shared oil — ask us about allergens before ordering.",
+      "colour": "Medium heat",
+      "category": {
+        "_id": "6b00a4c0503f15d4c5f37569",
+        "name": "Fried Chicken",
+        "slug": "fried-chicken"
+      },
+      "images": [
+        "/images/dish-bucket.jpg",
+        "/images/hero-fryer.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Quarter",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "Half",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "Full",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": true,
+      "featured": true,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 1,
+      "archived": false,
+      "createdAt": "2026-11-20T19:51:28.232Z",
+      "updatedAt": "2026-11-20T19:51:28.232Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f37573",
+      "name": "Korean Gochujang Wings",
+      "slug": "korean-gochujang-wings",
+      "description": "Wings fried twice for a shell that holds its crunch, then tossed to order in a gochujang glaze with honey, garlic and sesame. Finished with spring onion. Sweet first, warm after.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "Chicken wings, gochujang, honey, garlic, sesame oil, sesame seeds, spring onion",
+      "care": "Contains soy, sesame and gluten. Glazed to order — please mention a sesame allergy.",
+      "colour": "Hot",
+      "category": {
+        "_id": "6b00a4c0503f15d4c5f37569",
+        "name": "Fried Chicken",
+        "slug": "fried-chicken"
+      },
+      "images": [
+        "/images/dish-wings.jpg",
+        "/images/hero-wings.jpg"
+      ],
+      "variants": [
+        {
+          "name": "6 pieces",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "12 pieces",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": true,
+      "featured": true,
+      "newArrival": true,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 2,
+      "archived": false,
+      "createdAt": "2026-11-20T19:51:28.249Z",
+      "updatedAt": "2026-11-20T19:51:28.249Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f37577",
+      "name": "Dudu Chicken Burger",
+      "slug": "dudu-chicken-burger",
+      "description": "A buttermilk-fried fillet in a toasted bun with slaw, pickles, cheese and the house chilli mayo. Ask for the double if you are hungry enough.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "Chicken fillet, brioche bun, slaw, pickles, cheese, chilli mayo",
+      "care": "Contains gluten, dairy and egg. Made to order — allow a little longer at peak time.",
+      "colour": "Medium heat",
+      "category": {
+        "_id": "6b00a4c0503f15d4c5f3756b",
+        "name": "Burgers & Wraps",
+        "slug": "burgers-wraps"
+      },
+      "images": [
+        "/images/dish-burger.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Single",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "Double",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": false,
+      "featured": true,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 4,
+      "archived": false,
+      "createdAt": "2026-11-20T19:51:28.264Z",
+      "updatedAt": "2026-11-20T19:51:28.264Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f3757d",
+      "name": "Brown Sugar Boba Shake",
+      "slug": "brown-sugar-boba-shake",
+      "description": "Cold milk, brown sugar syrup and tapioca pearls, shaken thick and finished with a caramel swirl. The reason people order two.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "Milk, brown sugar syrup, tapioca pearls, cream, caramel",
+      "care": "Contains dairy. Pearls are prepared fresh and are best drunk within the hour.",
+      "colour": "Sweet",
+      "category": {
+        "_id": "6b00a4c0503f15d4c5f3756f",
+        "name": "Shakes & Boba",
+        "slug": "shakes-boba"
+      },
+      "images": [
+        "/images/dish-boba.jpg",
+        "/images/hero-shakes.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Regular",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "Large",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": true,
+      "featured": true,
+      "newArrival": true,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 7,
+      "archived": false,
+      "createdAt": "2026-11-20T19:51:28.279Z",
+      "updatedAt": "2026-11-20T19:51:28.279Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f37575",
+      "name": "Turkish Chicken Strips",
+      "slug": "turkish-chicken-strips",
+      "description": "Char-grilled strips in a herbed Turkish marinade — oregano, chilli flakes, yoghurt and lemon — sliced thick and served with garlic sauce for dipping.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "Chicken breast, yoghurt, oregano, chilli flakes, lemon, garlic, olive oil",
+      "care": "Contains dairy. Grilled separately from the fried items.",
+      "colour": "Mild",
+      "category": {
+        "_id": "6b00a4c0503f15d4c5f37569",
+        "name": "Fried Chicken",
+        "slug": "fried-chicken"
+      },
+      "images": [
+        "/images/dish-strips.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Regular",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "Large",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": false,
+      "featured": false,
+      "newArrival": true,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 3,
+      "archived": false,
+      "createdAt": "2026-11-20T19:51:28.257Z",
+      "updatedAt": "2026-11-20T19:51:28.257Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f37579",
+      "name": "Turkish Chicken Wrap",
+      "slug": "turkish-chicken-wrap",
+      "description": "Grilled chicken strips rolled in warm flatbread with garlic sauce, shredded cabbage, pickled onion and a squeeze of lemon. The easiest thing to eat on the way home.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "Chicken strips, flatbread, garlic sauce, cabbage, pickled onion, lemon",
+      "care": "Contains gluten, dairy and egg.",
+      "colour": "Mild",
+      "category": {
+        "_id": "6b00a4c0503f15d4c5f3756b",
+        "name": "Burgers & Wraps",
+        "slug": "burgers-wraps"
+      },
+      "images": [
+        "/images/dish-wrap.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Regular",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "Large",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": true,
+      "featured": false,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 5,
+      "archived": false,
+      "createdAt": "2026-11-20T19:51:28.270Z",
+      "updatedAt": "2026-11-20T19:51:28.270Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f3757b",
+      "name": "Loaded Masala Fries",
+      "slug": "loaded-masala-fries",
+      "description": "Fries tossed in house masala, then loaded with cheese sauce, fried chicken bits, spring onion and a drizzle of chilli mayo. Get the peri-peri version if you want it louder.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "Potatoes, house masala, cheese sauce, chicken, spring onion, chilli mayo",
+      "care": "Contains dairy and egg. Vegetarian version available without the chicken.",
+      "colour": "Medium heat",
+      "category": {
+        "_id": "6b00a4c0503f15d4c5f3756d",
+        "name": "Sides & Fries",
+        "slug": "sides-fries"
+      },
+      "images": [
+        "/images/dish-fries.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Regular",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "Peri peri",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "Cheese loaded",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": true,
+      "featured": false,
+      "newArrival": true,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 6,
+      "archived": false,
+      "createdAt": "2026-11-20T19:51:28.275Z",
+      "updatedAt": "2026-11-20T19:51:28.275Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f3757f",
+      "name": "Blue Lagoon Mojito",
+      "slug": "blue-lagoon-mojito",
+      "description": "Crushed ice, fresh mint, lime and blue curaçao syrup, topped with soda. Non-alcoholic, very cold, and the fastest way to cool down after the Korean glaze.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "Mint, lime, blue curaçao syrup, soda, crushed ice",
+      "care": "Alcohol-free. Contains no dairy or gluten.",
+      "colour": "Cooling",
+      "category": {
+        "_id": "6b00a4c0503f15d4c5f3756f",
+        "name": "Shakes & Boba",
+        "slug": "shakes-boba"
+      },
+      "images": [
+        "/images/dish-mojito.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Regular",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "Large",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": false,
+      "featured": false,
+      "newArrival": true,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 8,
+      "archived": false,
+      "createdAt": "2026-11-20T19:51:28.283Z",
+      "updatedAt": "2026-11-20T19:51:28.283Z",
+      "__v": 0
+    }
+  ],
+  "categories": [
+    {
+      "_id": "6b00a4c0503f15d4c5f37569",
+      "name": "Fried Chicken",
+      "slug": "fried-chicken",
+      "description": "Arabian spice, Korean glaze, Turkish char — buckets, wings and strips, fried to order.",
+      "image": "/images/dish-bucket.jpg",
+      "displayOrder": 1,
+      "createdAt": "2026-11-20T19:51:28.201Z",
+      "updatedAt": "2026-11-20T19:51:28.201Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f3756b",
+      "name": "Burgers & Wraps",
+      "slug": "burgers-wraps",
+      "description": "Buttermilk-fried fillets in soft buns and warm bread, with slaw, pickles and garlic sauce.",
+      "image": "/images/dish-wrap.jpg",
+      "displayOrder": 2,
+      "createdAt": "2026-11-20T19:51:28.206Z",
+      "updatedAt": "2026-11-20T19:51:28.206Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f3756d",
+      "name": "Sides & Fries",
+      "slug": "sides-fries",
+      "description": "Loaded fries and the small things that finish a bucket.",
+      "image": "/images/dish-fries.jpg",
+      "displayOrder": 3,
+      "createdAt": "2026-11-20T19:51:28.211Z",
+      "updatedAt": "2026-11-20T19:51:28.211Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f3756f",
+      "name": "Shakes & Boba",
+      "slug": "shakes-boba",
+      "description": "Thick shakes, brown-sugar boba and crushed-ice mojitos — the cold half of the order.",
+      "image": "/images/hero-shakes.jpg",
+      "displayOrder": 4,
+      "createdAt": "2026-11-20T19:51:28.215Z",
+      "updatedAt": "2026-11-20T19:51:28.215Z",
+      "__v": 0
+    }
+  ],
+  "reviews": [],
+  "gallery": [
+    {
+      "_id": "6b00a4c0503f15d4c5f37581",
+      "image": "/images/hero-fryer.jpg",
+      "caption": "Straight out the fryer",
+      "externalUrl": "https://www.instagram.com/dudu_bubufried/",
+      "displayOrder": 1,
+      "active": true,
+      "createdAt": "2026-11-20T19:51:28.290Z",
+      "updatedAt": "2026-11-20T19:51:28.290Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f37582",
+      "image": "/images/dish-wings.jpg",
+      "caption": "Gochujang wings, tossed to order",
+      "externalUrl": "https://www.instagram.com/dudu_bubufried/",
+      "displayOrder": 2,
+      "active": true,
+      "createdAt": "2026-11-20T19:51:28.290Z",
+      "updatedAt": "2026-11-20T19:51:28.290Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f37583",
+      "image": "/images/hero-shakes.jpg",
+      "caption": "Boba, mojito and thick shakes",
+      "externalUrl": "https://www.instagram.com/dudu_bubufried/",
+      "displayOrder": 3,
+      "active": true,
+      "createdAt": "2026-11-20T19:51:28.290Z",
+      "updatedAt": "2026-11-20T19:51:28.290Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f37584",
+      "image": "/images/dish-bucket.jpg",
+      "caption": "The house bucket",
+      "externalUrl": "https://www.instagram.com/dudu_bubufried/",
+      "displayOrder": 4,
+      "active": true,
+      "createdAt": "2026-11-20T19:51:28.290Z",
+      "updatedAt": "2026-11-20T19:51:28.290Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f37585",
+      "image": "/images/dish-wrap.jpg",
+      "caption": "Turkish wrap, wrapped warm",
+      "externalUrl": "https://www.instagram.com/dudu_bubufried/",
+      "displayOrder": 5,
+      "active": true,
+      "createdAt": "2026-11-20T19:51:28.290Z",
+      "updatedAt": "2026-11-20T19:51:28.290Z",
+      "__v": 0
+    },
+    {
+      "_id": "6b00a4c0503f15d4c5f37586",
+      "image": "/images/kitchen.jpg",
+      "caption": "The pass at Miraroad",
+      "externalUrl": "https://www.instagram.com/dudu_bubufried/",
+      "displayOrder": 6,
+      "active": true,
+      "createdAt": "2026-11-20T19:51:28.290Z",
+      "updatedAt": "2026-11-20T19:51:28.290Z",
+      "__v": 0
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    @apply bg-bone text-ink font-body antialiased;
+    text-rendering: optimizeLegibility;
+    background-image: radial-gradient(rgba(26, 21, 18, 0.045) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display font-normal uppercase tracking-tight2;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-chilli-500 ring-offset-2 ring-offset-bone;
+  }
+
+  ::selection {
+    @apply bg-chilli-500 text-ivory;
+  }
+}
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply text-[10px] font-medium uppercase tracking-micro text-ink-soft;
+  }
+
+  .hairline {
+    @apply border-t border-ink/10;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 border-2 px-6 py-3 text-[11px] font-semibold uppercase tracking-wide2 transition-all duration-300 ease-editorial disabled:cursor-not-allowed disabled:opacity-40;
+  }
+
+  .btn-solid {
+    @apply btn border-ink bg-ink text-bone hover:border-chilli-600 hover:bg-chilli-600;
+  }
+
+  .btn-chilli {
+    @apply btn border-chilli-600 bg-chilli-500 text-ivory shadow-sticker hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none;
+  }
+
+  .btn-line {
+    @apply btn border-ink/25 bg-transparent text-ink hover:border-ink hover:bg-ink hover:text-bone;
+  }
+
+  .btn-quiet {
+    @apply btn border-transparent bg-transparent px-3 py-2 normal-case tracking-normal text-ink-soft hover:text-ink;
+  }
+
+  .field {
+    @apply w-full border-2 border-ink/15 bg-ivory px-3.5 py-2.5 text-sm text-ink placeholder:text-ink-faint focus:border-ink focus:outline-none;
+  }
+
+  .field-label {
+    @apply mb-1.5 block text-[10px] font-semibold uppercase tracking-wide2 text-ink-soft;
+  }
+
+  .panel {
+    @apply border-2 border-ink/15 bg-ivory;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2 py-1 text-[9px] font-bold uppercase tracking-wide2;
+  }
+
+  .badge-dark {
+    @apply badge bg-ink text-bone;
+  }
+
+  .badge-chilli {
+    @apply badge bg-chilli-500 text-ivory;
+  }
+
+  .badge-line {
+    @apply badge border border-ink/20 bg-ivory/90 text-ink;
+  }
+
+  .badge-fry {
+    @apply badge bg-fry-300 text-ink;
+  }
+
+  .link-quiet {
+    @apply text-ink/70 underline decoration-ink/25 underline-offset-4 transition-colors hover:text-ink hover:decoration-ink;
+  }
+
+  .skeleton {
+    @apply animate-pulse bg-sand/80;
+  }
+
+  .prose-editorial p {
+    @apply mb-4 leading-[1.85] text-ink-soft;
+  }
+
+  /* Sticker: the rotated outlined plate used for prices and callouts. */
+  .sticker {
+    @apply inline-flex rotate-[-3deg] items-center gap-2 border-2 border-ink bg-fry-300 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wide2 text-ink shadow-sticker;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Headline outline that reads as painted signage rather than body text. */
+  .text-outline {
+    -webkit-text-stroke: 2px rgba(247, 239, 225, 0.85);
+    color: transparent;
+  }
+
+  .ticker-mask {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+    mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+  }
+}
